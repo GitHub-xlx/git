@@ -82,4 +82,8 @@ public class UserController
 	public String updateUser(User u1){
 		return "html/success";
 	}
+	@RequestMapping("/updateLixiang")
+	public String updateLixiang(User u1){
+		return "html/success";
+	}
 }
