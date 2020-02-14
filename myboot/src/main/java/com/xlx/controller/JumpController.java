@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/jump")
 public class JumpController
 {
+	//这就不用写很多跳转
 	@RequestMapping({"/front/{id}"})
 	public String jumpFront(@PathVariable("id")String id){
 		return "front/html/"+id;
