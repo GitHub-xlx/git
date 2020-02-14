@@ -78,4 +78,8 @@ public class UserController
 	public String updateScore(User u1){
 		return "html/success";
 	}
+	@RequestMapping("/updateUser")
+	public String updateUser(User u1){
+		return "html/success";
+	}
 }
