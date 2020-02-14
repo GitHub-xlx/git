@@ -10,6 +10,8 @@ public class MybootApplication
 	/**
 	 * 子盛你的输入法
 	 * @param args 出卖你
+	 *
+	 *             子盛逗比  有毒
 	 */
 
 	public static void main(String[] args)
